@@ -58,7 +58,7 @@
 
         /* ============== Main Screen ============== */
         #main-screen {
-            max-width: 900px;
+            max-width: 1400px;
             margin: 0 auto;
             justify-content: flex-start;
             padding-top: 5vh;
@@ -173,7 +173,7 @@
             color: #fff;
             border: none;
             padding: 50px 80px;
-            font-size: 80px;
+            font-size: clamp(36px, 5vw, 80px);
             font-weight: bold;
             border-radius: 30px;
             cursor: pointer;
@@ -184,6 +184,7 @@
             letter-spacing: 5px;
             margin-top: auto;
             margin-bottom: 5vh;
+            white-space: nowrap;
         }
 
         .btn-roulette:active {
