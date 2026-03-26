@@ -1,8 +1,10 @@
 # ADHD Focus Timer
 
-**▶️ [今すぐWebブラウザで使う](https://tagkaz.github.io/adhd-focus-timer/)**（推奨）
+**▶️ [今すぐWebブラウザで使う](https://masakiishitani.github.io/adhd-focus-timer/)**（推奨）
 
-ADHD特化型・強制着手タイマーの「集中継続特化・カウントアップ版」です。
+ADHD特化型・強制着手タイマーの「集中継続特化・カウントアップ版」です。カラーリングを紫・ピンク系にカスタマイズした個人利用版です。
+
+> **元ネタ・オリジナル版:** [@tagkaz](https://github.com/tagkaz) さん作の [tagkaz/adhd-focus-timer](https://github.com/tagkaz/adhd-focus-timer) をベースにしています。素晴らしいアプリをありがとうございます！
 
 本プロジェクトは、旧版にあたるポモドーロ用タイマー（究極ポモドーロ）から派生した新規バージョンです。
 前作のように「時間が来たら強制的にシステムが休憩時間を挟む」といったポモドーロ手法を廃止し、**「自発的な集中継続の支援」**と**「累積集中時間の可視化」**を最大の目的として再設計されています。
