@@ -69,8 +69,7 @@
             grid-template-columns: 1fr;
             gap: 30px;
             width: 100%;
-            max-width: 700px;
-            margin: 0 auto 20px auto;
+            margin-bottom: 20px;
         }
 
         .task-slot {
@@ -1169,15 +1168,9 @@
                 addBtn.innerText = '＋ タスクを追加 (最大6個)';
             }
 
-            if (tasks.length === 1) {
-                container.style.gridTemplateColumns = '1fr';
-                container.style.maxWidth = '700px';
-                container.style.margin = '0 auto 20px auto';
-            } else {
-                container.style.gridTemplateColumns = '1fr';
-                container.style.maxWidth = '700px';
-                container.style.margin = '0 auto 20px auto';
-            }
+            container.style.gridTemplateColumns = '1fr';
+            container.style.maxWidth = '';
+            container.style.margin = '0 0 20px 0';
 
             for (let i = 0; i < tasks.length; i++) {
                 const slot = document.createElement('div');
